@@ -25,3 +25,4 @@ li:hover {
     margin: 40px auto 40px auto;
     background-image: url('https://images.blogthings.com/therescuedogtest/dog-5.jpg');
 }
+html {cursor: pointer;}
