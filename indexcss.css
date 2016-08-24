@@ -3,10 +3,10 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#testdiv {
+#boxdiv {
     color: blue;
     width: 360px;
-    margin: 40px auto 40px auto;
+    margin: 20px auto 20px auto;
     padding-right: 20px;
     border-style: dotted;
     text-align: left;
@@ -19,10 +19,10 @@ li:hover {
     text-shadow: 2px 2px 0px #666666;
 }
 
-#dogdiv {
-    width: 400px;
-    height: 400px;
-    margin: 40px auto 40px auto;
+#linkdiv {
+    width: 390px;
+    height: 390px;
+    margin: 20px auto 20px auto;
 }
 html {cursor: url('http://img04.deviantart.net/b63d/i/2012/076/3/4/ss_master_sword_cursors_by_blueamnesiac-d4t1w7r.png'), default;}
 
