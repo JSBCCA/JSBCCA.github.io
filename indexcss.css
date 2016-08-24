@@ -23,6 +23,5 @@ li:hover {
     width: 400px;
     height: 400px;
     margin: 40px auto 40px auto;
-    background-image: url('https://images.blogthings.com/therescuedogtest/dog-5.jpg');
 }
-html {cursor: wait;}
+html {cursor: url('http://img04.deviantart.net/b63d/i/2012/076/3/4/ss_master_sword_cursors_by_blueamnesiac-d4t1w7r.png'), default;}
