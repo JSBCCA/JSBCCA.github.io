@@ -27,3 +27,8 @@ li:hover {
 html {cursor: url('http://img04.deviantart.net/b63d/i/2012/076/3/4/ss_master_sword_cursors_by_blueamnesiac-d4t1w7r.png'), default;}
 
 ul {list-style-image: url("http://zeldawiki.org/images/4/48/PH_Green_Rupee.png");}
+
+aside {float: right;}
+
+img {width: 390px;
+     height: 390px;}
