@@ -59,4 +59,7 @@ section.success {
 .navbar-custom .navbar-toggle:focus {
   background-color:rgb(83, 186, 237);
   color: white;
-  border-color: rgb(66, 169, 221);
+  border-color: rgb(66, 169, 221);}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(83, 186, 237, 0.9);}
