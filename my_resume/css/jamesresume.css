@@ -39,4 +39,24 @@ section.success {
   }
   .btn-success .badge {
     color: rgb(83, 186, 237);
-    background-color: white;
+    background-color: white;}
+  #git{color: white; text-decoration: underline;}
+  .navbar-custom .navbar-nav li a:hover {
+    color: rgb(83, 186, 237);
+    outline: none;
+  }
+  .navbar-custom .navbar-nav li.active a {
+    color: white;
+    background: rgb(83, 186, 237);}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: rgb(73, 176, 227);}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color:rgb(83, 186, 237);
+  color: white;
+  border-color: rgb(66, 169, 221);
