@@ -6,4 +6,37 @@ hr.star-light:after {
   color: white;}
 section.success {
   background: rgb(83, 186, 237);
+  color: white;}
+.btn-success{border-color: rgb(83, 186, 237);
+            background-color: rgb(83, 186, 237);}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
   color: white;
+  background-color: rgb(73, 176, 227);
+  border-color: rgb(66, 169, 221);}
+
+  .btn-success.disabled,
+  .btn-success[disabled],
+  fieldset[disabled] .btn-success,
+  .btn-success.disabled:hover,
+  .btn-success[disabled]:hover,
+  fieldset[disabled] .btn-success:hover,
+  .btn-success.disabled:focus,
+  .btn-success[disabled]:focus,
+  fieldset[disabled] .btn-success:focus,
+  .btn-success.disabled:active,
+  .btn-success[disabled]:active,
+  fieldset[disabled] .btn-success:active,
+  .btn-success.disabled.active,
+  .btn-success[disabled].active,
+  fieldset[disabled] .btn-success.active {
+    background-color: rgb(73, 176, 227);
+    border-color: rgb(66, 169, 221);}
+  }
+  .btn-success .badge {
+    color: rgb(83, 186, 237);
+    background-color: white;
