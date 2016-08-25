@@ -1,0 +1,9 @@
+img.img-responsive{width: 320px; height: 190px;}
+#profile {width: auto; height: 1;}
+header {background-color: rgb(83, 186, 237)}
+hr.star-light:after {
+  background-color: rgb(83, 186, 237);
+  color: white;}
+section.success {
+  background: rgb(83, 186, 237);
+  color: white;
