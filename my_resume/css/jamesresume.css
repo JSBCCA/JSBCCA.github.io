@@ -63,3 +63,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(83, 186, 237, 0.9);}
+
+.floating-label-form-group-with-focus label {
+  color: rgb(83, 186, 237);
+}
