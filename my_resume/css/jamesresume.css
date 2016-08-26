@@ -1,4 +1,4 @@
-img.img-responsive{width: 320px; height: 190px;}
+img.img-responsive{width: 23em; height: 13.5em;}
 #profile {width: auto; height: 1; border-color: rgb(255, 255, 255); border: solid;}
 header {background-color: rgb(83, 186, 237)}
 hr.star-light:after {
@@ -68,3 +68,54 @@ section.success {
   color: rgb(83, 186, 237);
 }
 strong.green {color: #18BC9C;}
+
+/*----------------------------------------------------------------------------*/
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;;
+  width: 21em;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}

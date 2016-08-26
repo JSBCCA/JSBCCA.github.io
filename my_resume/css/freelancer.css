@@ -209,8 +209,8 @@ section.success {
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
-  position: absolute;
-  width: 100%;
+  position: absolute;;
+  width: 21em;
   height: 100%;
   opacity: 0;
   transition: all ease 0.5s;
