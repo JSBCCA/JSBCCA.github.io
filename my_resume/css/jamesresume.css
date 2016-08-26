@@ -118,7 +118,3 @@ strong.green {color: #18BC9C;}
 #about::after {
   content: "\f128";
   font-family: FontAwesome; }
-
-.fa-twitter:before {
-    content: "\f16d";
-}
