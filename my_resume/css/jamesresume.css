@@ -7,6 +7,8 @@ hr.star-light:after {
 section.success {
   background: rgb(83, 186, 237);
   color: white;}
+
+
 .btn-success{border-color: rgb(83, 186, 237);
             background-color: rgb(83, 186, 237);}
 
@@ -69,18 +71,6 @@ section.success {
 }
 strong.green {color: #18BC9C;}
 
-/*----------------------------------------------------------------------------*/
-
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
 #portfolio .portfolio-item .portfolio-link .caption {
   position: absolute;;
   width: 100%;
@@ -90,9 +80,7 @@ strong.green {color: #18BC9C;}
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
-}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
@@ -103,18 +91,7 @@ strong.green {color: #18BC9C;}
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-  margin-top: -12px;
-}
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-  margin: 0;
-}
-#portfolio * {
-  z-index: 2;
-}
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
+
+.portfolio-modal .modal-content img {
+  width: inherit;
 }
