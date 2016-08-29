@@ -118,3 +118,5 @@ strong.green {color: #18BC9C;}
 #abo::after {
   content: "\f128";
   font-family: FontAwesome; }
+
+/*.col-lg-4 {width: 64%;}*/
