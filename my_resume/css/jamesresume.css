@@ -123,4 +123,12 @@ strong.green {color: #18BC9C;}
   content: "\f1fc";
   font-family: FontAwesome; }
 
+#misc::after {
+  content: "\f00a";
+  font-family: FontAwesome; }
+
+#click::after {
+  content: "\f124";
+  font-family: FontAwesome; }
+
 /*.col-lg-4 {width: 64%;}*/
