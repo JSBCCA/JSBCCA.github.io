@@ -95,6 +95,8 @@ strong.green {color: #18BC9C;}
 .portfolio-modal .modal-content img {
   width: inherit;
 }
+
+/*icons*/
 #enve::after {
   content: "\f003";
   font-family: FontAwesome; }
