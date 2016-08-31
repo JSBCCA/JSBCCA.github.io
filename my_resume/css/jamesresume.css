@@ -119,4 +119,8 @@ strong.green {color: #18BC9C;}
   content: "\f128";
   font-family: FontAwesome; }
 
+#turt::after {
+  content: "\f1fc";
+  font-family: FontAwesome; }
+
 /*.col-lg-4 {width: 64%;}*/
