@@ -4,3 +4,7 @@
   border-width: thin;
   border-style: dashed;
 }
+
+.green {background-color: rgb(84, 227, 54);}
+
+.red {background-color: rgb(255, 0, 0);}
