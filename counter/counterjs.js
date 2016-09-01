@@ -8,5 +8,4 @@ function count() {
 
   var colors = ['red', 'purple', 'blue', 'green', 'yellow', 'orange'];
   var color = choose(colors);
-  counter.style.color = color;
-}
+  counter.style.color = color;}
