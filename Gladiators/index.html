@@ -2,37 +2,37 @@
 <html>
 <head>
   <title>Gladiator Battle</title>
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
   <link href="gladiatorcss.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="container-fluid">
+
   <div>
     Battle!
   </div>
 
-  <div>
-
-        <span>Glad1</span>
-
-        <span>Health: <span>100</span></span>
-        <span>Rage: <span>0</span></span>
-          <!-- <img src="img/gladiator.png"/> -->
+  <div class="col-lg-6 col-md-6">
+          <div>Health: <span>100</span>
+          Rage: <span>100</span></div>
+          <img src="img/gladiator.png"/>
+          <div>
           <span><button class="red">Attack</button></span>
           <span><button class="green">Heal</button></span>
-
+          </div>
   </div>
 
-  <div>
-
-        <span>Glad2</span>
-
-        <span>Health: <span>100</span></span>
-        <span>Rage: <span>0</span></span>
-          <!-- <img src="img/gladiator.png"/> -->
+  <div class="col-lg-6 col-md-6">
+        <div>Health: <span>100</span>
+        Rage: <span>100</span></div>
+        <img src="img/gladiator.png"/>
+        <div>
         <span><button class="red">Attack</button></span>
         <span><button class="green">Heal</button></span>
-
+        </div>
   </div>
-
+</div>
 <!-- <script src="gladiatorjs.js"></script> -->
+<script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
