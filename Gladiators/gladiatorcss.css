@@ -1,11 +1,55 @@
 * {
   padding: 1em;
-
   border-width: thin;
-  border-style: dashed;
+  /*border-style: dashed;*/
 }
 
-.green {background-color: rgb(84, 227, 54);}
+body {background-image: url("img/coliseum.png");
+      background-repeat: no-repeat;
+      background-size: 100%;}
 
-.red {background-color: rgb(255, 0, 0);}
+img {height: 15%;
+     width: 58%;
+     padding-top: 5%;
+     padding-bottom: 1%;}
 
+.green {background-color: rgb(78, 213, 50);
+        border-style: solid;
+        color: rgb(255, 255, 255);}
+
+.red {background-color: rgb(255, 0, 0);
+      border-style: solid;
+      color: rgb(255, 255, 255);}
+
+#flip {transform: scale(-1, 1);}
+
+.left1 {position: relative;
+        left: 40%;}
+
+.left2 {position: relative;
+        left: 47%;}
+
+.left3 {position: relative;
+        left: 38%;
+        padding: 6px;}
+
+.progress {
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+}
+
+.right1 {position: relative;
+        left: 10%;}
+
+.right2 {position: relative;
+        left: 13%;
+        padding: 6px;}
+
+.white {background-color: rgb(255, 255, 255);}
+
+.smaller {padding: 1px;
+          margin: 0;}
+
+.red:hover, .red:focus{background-color: rgb(222, 13, 13); color: rgb(255, 255, 255);}
+.green:hover, .green:focus{background-color: rgb(67, 195, 41); color: rgb(255, 255, 255);}

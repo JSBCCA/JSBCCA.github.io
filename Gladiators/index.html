@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gladiator Battle</title>
-  <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
-  <link href="gladiatorcss.css" rel="stylesheet"/>
+    <title>Gladiator Battle</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="gladiatorcss.css" rel="stylesheet" />
 </head>
 <body>
-<div class="container-fluid">
+    <div class="container-fluid">
+        <div class="smaller"><span class=" smaller white">
+              Battle!
+             </span></div>
 
-  <div>
-    Battle!
-  </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="row left3">
+                <div class="progress col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">Health: 100</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row left3">
+                <div class="progress col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="sr-only">Rage: 100</span>
+                    </div>
+                </div>
 
-  <div class="col-lg-6 col-md-6">
-          <div>Health: <span>100</span>
-          Rage: <span>100</span></div>
-          <img src="img/gladiator.png"/>
-          <div>
-          <span><button class="red">Attack</button></span>
-          <span><button class="green">Heal</button></span>
-          </div>
-  </div>
-
-  <div class="col-lg-6 col-md-6">
-        <div>Health: <span>100</span>
-        Rage: <span>100</span></div>
-        <img src="img/gladiator.png"/>
-        <div>
-        <span><button class="red">Attack</button></span>
-        <span><button class="green">Heal</button></span>
+            </div>
+            <div class="left1">
+                <img src="img/gladiator.png" />
+            </div>
+            <div>
+                <span><button class="btn red left2">Attack</button></span>
+                <span><button class="btn green left2">Heal</button></span>
+            </div>
         </div>
-  </div>
-</div>
-<!-- <script src="gladiatorjs.js"></script> -->
-<script src="bootstrap/js/bootstrap.js"></script>
+
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="row right2">
+                <div class="progress col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">Health: 100</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row right2">
+                <div class="progress col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="sr-only">Rage: 100</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img id="flip" src="img/gladiator.png" />
+            </div>
+            <div>
+              <span><button class=" btn red right1">Attack</button></span>
+              <span><button class=" btn green right1">Heal</button></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="gladiatorjs.js"></script>
 </body>
 </html>
