@@ -17,6 +17,11 @@ function attack_one() {
     health_two = health_two - 20;
     alert("hyahhhhh " + health_two);
   }
+
+  // get the relevant element(s)
+  // update it(them)
+  var health_bar = document.getElementsByClassName('progress-bar-success')[1];
+  health_bar.style.width = health_two + "%";
 }
 
 function heal_two() {
