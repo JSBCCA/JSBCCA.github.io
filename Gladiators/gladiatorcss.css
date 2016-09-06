@@ -1,5 +1,5 @@
 * {
-  padding: 1em;
+  /*padding: 1em;*/
   border-width: thin;
   /*border-style: dashed;*/
 }
@@ -53,3 +53,5 @@ img {height: 15%;
 
 .red:hover, .red:focus{background-color: rgb(222, 13, 13); color: rgb(255, 255, 255);}
 .green:hover, .green:focus{background-color: rgb(67, 195, 41); color: rgb(255, 255, 255);}
+
+.padd {padding: 1em;}
