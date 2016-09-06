@@ -1,14 +1,14 @@
 var health = 100;
 
-function rage() {
+function heal() {
   if (health > 0) {
-    document.write("You're good, m8.");
+    alert("You're good, m8.");
   } else if (health <= 0) {
-    document.write("R.I.P. in Peace");
+    alert("R.I.P. in Pasta");
   }
 }
 
 
-function something() {
-  alert("WE DID IT!");
+function attack() {
+  alert("hyahhhhh");
 }
