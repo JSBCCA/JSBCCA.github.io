@@ -1,8 +1,8 @@
 * {
   /*padding: 1em;*/
-  border-width: thin;
+  /*border-width: thin;
   border-color: rgb(255, 255, 255);
-  border-style: dashed;
+  border-style: dashed;*/
 }
 
 html,body
@@ -17,6 +17,11 @@ html,body
 body {background-color: rgb(0, 0, 0);
       background-repeat: no-repeat;
       background-size: 100%;}
+
+.shrink {
+  margin-top: 51%;
+  margin-bottom: 0%;
+}
 
 .down {
   margin-top: 1%;
@@ -38,10 +43,15 @@ body {background-color: rgb(0, 0, 0);
   font-size: 5em;
   font-family: fantasy;
   position: relative;
-  left: 9%;
+  left: 10%;
 }
 
 #skelly {
   position: relative;
   left: 29%;
+}
+
+.shift{
+  position: relative;
+  left: 55%;
 }
