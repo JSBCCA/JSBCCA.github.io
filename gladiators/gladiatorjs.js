@@ -21,6 +21,7 @@ function heal_one() {
 
 function attack_one() {
   if (health_two > 0) {
+    document.getElementById("nonflip").style.transform = "translateX(180px)";
     health_two = Math.max(health_two - 20, 0);
     rage_one = Math.min(rage_one + 15, 100);
   }
