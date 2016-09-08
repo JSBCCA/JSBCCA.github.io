@@ -133,4 +133,8 @@ strong.green {color: #18BC9C;}
   content: "\f124";
   font-family: FontAwesome; }
 
+#skull::after {
+  content: "\f186";
+  font-family: FontAwesome; }
+
 /*.col-lg-4 {width: 64%;}*/
