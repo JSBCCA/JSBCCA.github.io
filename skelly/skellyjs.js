@@ -1,22 +1,23 @@
-// make clicker go up as you click
 var click_num = 0;
 
-function heal_one() {
-    if () {
-      var rage_bar = document.getElementsByClassName('progress-bar-danger')[0];
-      rage_bar.style.width = rage_one + "%";
-    } else if (health_one == 0) {
-        alert("");
-    } else {
-        alert("")
-    }
-}
-
+var unclick_time = 1000;
+var bar = document.getElementById("bar");
 var button = document.getElementById("button");
 
-function unclick() {
-  button.style.width = ...
-  setTimeout(unclick, 333);
+// make clicker go up as you click
+function click() {
+  click_num = Math.min(100, click_num + 1);
+  bar.style.width = click_num + "%";
+  console.log("click");
 }
 
+// make clicker go down with time
+function unclick() {
+  click_num = Math.max(click_num - 1, 0);
+  bar.style.width = click_num + "%";
+  setTimeout(unclick, unclick_time);
+}
+
+// call click and unclick
 unclick()
+button.addEventListener('click', click)
