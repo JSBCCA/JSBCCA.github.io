@@ -32,7 +32,7 @@ function unclick_time() {
     } else if (click_num >= 95 && click_num < 99) {
         words.innerText = "Woah, slow down partner.";
         return 30;
-    } else {
+    } else if (click_num === 99){
         words.innerText = "Mr. Spoops won't allow that.";
         return 2;
     }
