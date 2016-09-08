@@ -25,16 +25,16 @@ function unclick_time() {
         return 245;
     } else if (click_num >= 82 && click_num < 90) {
         words.innerText = "Spoopy Skelton is impressed.";
-        return 100;
+        return 130;
     } else if (click_num >= 90 && click_num < 95) {
         words.innerText = "You are a master clicker!";
-        return 50;
+        return 61;
     } else if (click_num >= 95 && click_num < 99) {
         words.innerText = "Woah, slow down partner.";
-        return 25;
+        return 30;
     } else {
         words.innerText = "Mr. Spoops won't allow that.";
-        return 1;
+        return 2;
     }
 }
 var bar = document.getElementById("bar");
