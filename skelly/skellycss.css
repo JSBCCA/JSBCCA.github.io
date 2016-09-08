@@ -18,7 +18,7 @@ body {background-color: rgb(0, 0, 0);
       background-size: 100%;}
 
 .shrink {
-  margin-top: 52%;
+  margin-top: 20%;
   margin-bottom: 0%;
   margin-right: 10%;
   margin-left: 0%
@@ -37,20 +37,27 @@ body {background-color: rgb(0, 0, 0);
 }
 
 .white {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .big {
   font-size: 5em;
   font-family: fantasy;
-  position: relative;
-  left: 11%;
+  text-align: center;
 }
 
 #skelly {
   position: relative;
   left: 26%;
   width: 45%;
+}
+
+#words {
+  margin-top: 24%;
+  font-size: 2em;
+  font-family: fantasy;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .shift{
