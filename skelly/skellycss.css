@@ -19,12 +19,14 @@ body {background-color: rgb(0, 0, 0);
       background-size: 100%;}
 
 .shrink {
-  margin-top: 51%;
+  margin-top: 50%;
   margin-bottom: 0%;
+  margin-right: 10%;
+  margin-left: 0%
 }
 
 .down {
-  margin-top: 1%;
+  margin-top: 2%;
 }
 .down2 {
   margin-bottom: 5%;
@@ -43,7 +45,7 @@ body {background-color: rgb(0, 0, 0);
   font-size: 5em;
   font-family: fantasy;
   position: relative;
-  left: 10%;
+  left: 11%;
 }
 
 #skelly {
@@ -53,5 +55,5 @@ body {background-color: rgb(0, 0, 0);
 
 .shift{
   position: relative;
-  left: 55%;
+  left: 50%;
 }
