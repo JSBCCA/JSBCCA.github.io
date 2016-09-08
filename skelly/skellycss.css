@@ -18,7 +18,7 @@ body {background-color: rgb(0, 0, 0);
       background-size: 100%;}
 
 .shrink {
-  margin-top: 20%;
+  margin-top: 18%;
   margin-bottom: 0%;
   margin-right: 10%;
   margin-left: 0%
@@ -53,14 +53,15 @@ body {background-color: rgb(0, 0, 0);
 }
 
 #words {
-  margin-top: 24%;
+  margin-top: 20%;
   font-size: 2em;
   font-family: fantasy;
   color: rgb(255, 255, 255);
   text-align: center;
+  position: relative;
+  right: 6%;
 }
 
-.shift{
-  position: relative;
-  left: 50%;
+.shift {
+  margin-top: 1%;
 }
