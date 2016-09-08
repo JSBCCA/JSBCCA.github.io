@@ -18,11 +18,11 @@ function unclick_time() {
         words.innerText = "You're good at this!";
         return 1000;
     } else if (click_num >= 68 && click_num < 75) {
-        words.innerText = "Yeah, you've got it!";
+        words.innerText = "Where is he walking to, anyway?";
         return 500;
     } else if (click_num >= 75 && click_num < 82) {
-        words.innerText = "Almost there, you've got this!";
-        return 250;
+        words.innerText = "Almost there!";
+        return 245;
     } else if (click_num >= 82 && click_num < 90) {
         words.innerText = "Spoopy Skelton is impressed.";
         return 100;
