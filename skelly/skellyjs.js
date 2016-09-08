@@ -32,7 +32,7 @@ function unclick_time() {
     } else if (click_num >= 95 && click_num < 99) {
         words.innerText = "Woah, slow down partner.";
         return 30;
-    } else if (click_num === 99){
+    } else if (click_num >= 99){
         words.innerText = "Mr. Spoops won't allow that.";
         return 2;
     }
@@ -42,7 +42,7 @@ var button = document.getElementById("button");
 
 // make clicker go up as you click
 function click() {
-  click_num = Math.min(99, click_num + 1);
+  click_num = Math.min(100, click_num + 1);
   bar.style.width = click_num + "%";
 }
 
