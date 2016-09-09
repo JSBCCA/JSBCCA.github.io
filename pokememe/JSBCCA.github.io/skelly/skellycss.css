@@ -1,0 +1,74 @@
+@font-face {
+    font-family: parchment;
+    src: url("fonts/parchment.ttf");
+    font-weight: bold;
+}
+
+* {
+  /*border-width: thin;
+  border-color: rgb(255, 255, 255);
+  border-style: dashed;*/
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {background-color: rgb(0, 0, 0);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+.shrink {
+  margin-top: 18%;
+  margin-bottom: 0%;
+  margin-right: 10%;
+  margin-left: 0%
+}
+
+.down {
+  margin-top: 0%;
+}
+.down2 {
+  margin-bottom: 5%;
+}
+
+.nopadding {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.white {
+  color: rgb(255, 255, 255);
+}
+
+.big {
+  font-size: 7em;
+  font-family: parchment;
+  text-align: center;
+}
+
+#skelly {
+  position: relative;
+  left: 26%;
+  width: 45%;
+}
+
+#words {
+  margin-top: 20%;
+  font-size: 170%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  right: 6%;
+}
+
+.shift {
+  margin-top: 1%;
+}
