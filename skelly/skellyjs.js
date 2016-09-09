@@ -53,6 +53,9 @@ function unclick() {
   setTimeout(unclick, unclick_time());
 }
 
+function auto() {click(); setTimeout(auto, 1)}
+// auto()
+
 // call click and unclick
 unclick()
 button.addEventListener('click', click)
