@@ -97,10 +97,6 @@ strong.green {color: #18BC9C;}
 }
 
 /*icons*/
-#enve::after {
-  content: "\f003";
-  font-family: FontAwesome; }
-
 #fold::after {
   content: "\f115";
   font-family: FontAwesome; }
@@ -135,6 +131,10 @@ strong.green {color: #18BC9C;}
 
 #skull::after {
   content: "\f186";
+  font-family: FontAwesome; }
+
+#tree::after {
+  content: "\f1bb";
   font-family: FontAwesome; }
 
 /*.col-lg-4 {width: 64%;}*/
