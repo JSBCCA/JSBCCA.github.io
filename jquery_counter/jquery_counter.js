@@ -1,9 +1,24 @@
 var Counter = {
   generate_counter: function() {
     //
-    var add_button = $("<button>+</button>");
-    var sub_button = $("<button>-</button>");
+    var add_button = $("<button>add</button>");
+    var sub_button = $("<button>sub</button>");
     var count = $("<span>0</span>");
+
+    add_button.css('margin', '.5em');
+
+    add_button.on('click', function() {
+      var count_num = Number(count.text())
+      count.text(count_num + 1);
+
+      count.css('font-size', (count_num + 14) + 'px')
+    })
+
+    sub_button.css('margin', '.5em');
+
+    sub_button.on('click', function() {
+      count.text(Number(count.text()) - 1);
+    })
 
     var counter = $("<div></div>");
     counter.append(sub_button);
