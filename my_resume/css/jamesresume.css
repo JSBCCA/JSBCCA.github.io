@@ -137,4 +137,8 @@ strong.green {color: #18BC9C;}
   content: "\f1bb";
   font-family: FontAwesome; }
 
+#token::after {
+  content: "\f111";
+  font-family: FontAwesome; }
+
 /*.col-lg-4 {width: 64%;}*/
