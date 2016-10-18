@@ -141,4 +141,8 @@ strong.green {color: #18BC9C;}
   content: "\f111";
   font-family: FontAwesome; }
 
+#bird::after {
+  content: "\f0ab";
+  font-family: FontAwesome; }
+
 /*.col-lg-4 {width: 64%;}*/
