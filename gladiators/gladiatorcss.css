@@ -13,9 +13,11 @@ html,body
     overflow-x: hidden;
 }
 
-body {background-image: url("img/coliseum.png");
-      background-repeat: no-repeat;
-      background-size: 100%;}
+body {
+    background-image: url("img/coliseum.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
 
 img {height: 15%;
      width: 58%;
