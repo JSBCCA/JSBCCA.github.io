@@ -145,12 +145,11 @@ strong.green {color: #18BC9C;}
   content: "\f0ab";
   font-family: FontAwesome; }
 
-#bird::after {
-  content: "\f0ab";
-  font-family: FontAwesome; }
-
 #fight::after {
   content: "\f0c0";
   font-family: FontAwesome; }
 
+#snow::after {
+  content: "\f2dc";
+  font-family: FontAwesome; }
 /*.col-lg-4 {width: 64%;}*/
