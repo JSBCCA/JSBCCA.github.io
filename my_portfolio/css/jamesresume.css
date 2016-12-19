@@ -43,6 +43,7 @@ section.success {
     color: rgb(83, 186, 237);
     background-color: white;}
   #git{color: white; text-decoration: underline;}
+  #res{color: white; text-decoration: underline;}
   .navbar-custom .navbar-nav li a:hover {
     color: rgb(83, 186, 237);
     outline: none;
